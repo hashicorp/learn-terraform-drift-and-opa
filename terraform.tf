@@ -1,8 +1,7 @@
 terraform {
   cloud {
-    organization = "hashicorp-training"
     workspaces {
-      name = "learn-terraform-validation-enforcement"
+      name = "learn-terraform-drift-and-opa"
     }
   }
 
