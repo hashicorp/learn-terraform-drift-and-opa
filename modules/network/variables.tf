@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 variable "bastion_instance_type" {
   description = "EC2 instance type. Should have no more than 2 cores."
   type        = string
